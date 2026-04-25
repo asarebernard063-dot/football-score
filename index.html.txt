@@ -1,8 +1,25 @@
-<div class="match">
-    <p class="teams">Man City vs Liverpool</p>
-    <p class="score">0 - 0</p>
-    <p class="time">Kick Off</p>
-</div>
-<div class="header">
-    ⚽ Live Scores App
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Scores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>⚽ My Football Scores</h1>
+
+    <div class="match">
+        <p class="teams">Arsenal vs Chelsea</p>
+        <p class="score">2 - 1</p>
+        <p class="time">45' (Live)</p>
+    </div>
+
+    <div class="match">
+        <p class="teams">Barcelona vs Real Madrid</p>
+        <p class="score">1 - 1</p>
+        <p class="time">HT</p>
+    </div>
+
+</body>
+</html>
