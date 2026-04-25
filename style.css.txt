@@ -1,25 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Football Scores</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+body {
+    font-family: Arial;
+    background: #0b0f1a;
+    color: white;
+    text-align: center;
+}
 
-<body>
+h1 {
+    color: #00ffcc;
+}
 
-    <h1>⚽ My Football Scores</h1>
+.match {
+    background: #1a1f2e;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
 
-    <div class="match">
-        <p class="teams">Arsenal vs Chelsea</p>
-        <p class="score">2 - 1</p>
-        <p class="time">45' (Live)</p>
-    </div>
+.score {
+    font-size: 28px;
+    font-weight: bold;
+}
 
-    <div class="match">
-        <p class="teams">Barcelona vs Real Madrid</p>
-        <p class="score">1 - 1</p>
-        <p class="time">HT</p>
-    </div>
-
-</body>
-</html>
+.time {
+    color: #00ffcc;
+}
